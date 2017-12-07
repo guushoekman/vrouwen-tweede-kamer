@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <title>Kandidaten tweede kamerverkiezingen 2017</title>
+
+    <style>
+      body {
+        background-color: #222;
+      }
+
+      .male {
+        background-color: #009688;
+      }
+      .female {
+        background-color: #f44336;
+      }
+      li {
+        width: 20px;
+        height: 20px;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+      }
+
+      ul {
+        width: 0;
+        display: inline-block;
+        list-style: none;
+        vertical-align: top;
+      }
+    </style>
+  </head>
+  <body>
+
+    <ul id="vvd"></ul>
+    <ul id="pvda"></ul>
+    <ul id="pvv"></ul>
+    <ul id="sp"></ul>
+    <ul id="cda"></ul>
+    <ul id="d66"></ul>
+    <ul id="christenunie"></ul>
+    <ul id="groenlinks"></ul>
+    <ul id="sgp"></ul>
+    <ul id="pvdd"></ul>
+    <ul id="vijftigplus"></ul>
+    <ul id="denk"></ul>
+    <ul id="fvd"></ul>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/candidates.js"></script>
+
+    <script>
+      $(vvd).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#vvd");
+      });
+
+      $(pvda).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#pvda");
+      });
+
+      $(pvv).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#pvv");
+      });
+
+      $(sp).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#sp");
+      });
+
+      $(cda).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#cda");
+      });
+
+      $(d66).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#d66");
+      });
+
+      $(christenunie).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#christenunie");
+      });
+
+      $(groenlinks).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#groenlinks");
+      });
+
+      $(sgp).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#sgp");
+      });
+
+      $(pvdd).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#pvdd");
+      });
+
+      $(vijftigplus).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#vijftigplus");
+      });
+
+      $(denk).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#denk");
+      });
+
+      $(fvd).each(function() {
+        $("<li class='" + this.gender + "'></li>").appendTo("#fvd");
+      });
+    </script>
+  </body>
+</html>
